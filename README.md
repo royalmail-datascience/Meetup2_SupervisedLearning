@@ -3,7 +3,7 @@
 
 In this second workshop, we will take you through the basics of Machine Learning and introduce you to a few algorithms, focusing on Random Forests. By the end of this workshop you will have an understanding of the theory behind this algorithm and will have applied it to a real-world dataset. We will walk you through how to prepare the data, train the model, evaluate it’s performance, and finally, discuss some of the parameters you can tune to improve your results.
 
-The only requirement for attending this workshop is that you will need to bring your own laptop. If you have some experience with Python, this would be helpful but is not essential and if you have time you should download the requires software detailed below.
+The only requirement for attending this workshop is that you will need to bring your own laptop. If you have some experience with Python, this would be helpful but is not essential and if you have time you should download the requires software detailed below (https://www.anaconda.com/download/).
 
 
 ### Agenda:
