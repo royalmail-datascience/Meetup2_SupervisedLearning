@@ -1,0 +1,143 @@
+         UK  DATA  ARCHIVE:  IMPORTANT  STUDY  INFORMATION
+
+
+SN:4800 - Edinburgh Study of Youth Transitions and Crime : 
+		Waves One to Four, 1997-2001
+
+
+
+Data Archive Processing Standards
+---------------------------------
+The data were processed to the UK Data Archive's 'B' standard. A 
+substantial series of checks was carried out to ensure the quality of 
+the data and documentation. Firstly, checks were made that the number of 
+cases and variables matched the depositor's records. Secondly, logical 
+checks were performed on a sample of 30 +10% of the remaining nominal 
+(categorical) variables to ensure they had values within the range defined 
+(either by value labels or in the depositor's documentation). Thirdly, any
+data or documentation that breached confidentiality rules were altered or 
+suppressed to preserve anonymity.
+
+All notable and/or outstanding problems discovered are detailed under 
+the 'Data and documentation problems' heading below.
+
+
+Data and Documentation Problems
+-------------------------------
+No problems encountered.
+
+
+Useful Notes
+------------
+Missing values included in the data are not coded in some cases -
+codes are as follows unless otherwise stated:
+
+8, 98, 998, 9998 etc - Missing
+9, 99, 999, 9999 etc - Filtered away.
+
+Data Analysis Reference Guide (file 4800dataanalysisrefguide.xls):
+This file has not been converted to Adobe PDF and remains in its original
+MS Excel format, as it contains multiple worksheets and fixed Excel
+tables/frozen panes to aid users looking for variable information.
+
+Questionnaire Section Headings:
+Some fonts used for headings in the original PDF questionnaires may not
+display properly. This is not a serious problem, and the relevant pages have
+been annotated accordingly in the user guide.
+
+Conversion of Documentation
+---------------------------
+All electronic and paper documentation supplied with this study is 
+normally incorporated into the UKDA User Guide (in PDF format). The 
+conversion programs used are the latest versions of Adobe PDF Writer 
+for electronic documentation and Adobe Paper Capture (Acrobat 'plugin' 
+version) for paper documentation. Occasionally, some or all of the 
+electronic documentation cannot be usefully converted to PDF (e.g. MS 
+Excel files with wide worksheets) and this is supplied in other formats. 
+All User Guides are fully bookmarked.
+
+Conversion of Data
+------------------
+Ingest format(s) of the data =  SPSS portable 
+
+From January 2003 onwards, almost all data conversions have been 
+performed using software developed by the UKDA. This enables 
+standardisation of the conversion methods and ensures optimal data 
+quality. In addition to its own data processing/conversion functionality, 
+this software invokes the SPSS and StatTransfer command processors to 
+perform certain translations in a standardised and optimal way. Although 
+data conversion is automated, all data files created are subject to 
+inspection by a UKDA data processor.
+
+To create the format you have been supplied the data in, the following 
+conversion will have been performed depending on the ingest format. Note 
+that you will have only been provided the data in the format you 
+requested.
+
+SPSS portable:
+If SPSS portable is not the ingest format, this format will generally 
+either have been created via the SPSS command processor (e.g. if the 
+ingest format is SPSS .sav, SAS, Excel, or dBase), or if the ingest 
+format is STATA, the SPSS portable version will be created via the 
+Stat/Transfer command processor. If the Ingest format is text (e.g. 
+fixed width ASCII) and no setup files are provided, the UKDA will 
+write the necessary setup files to read the data into SPSS.
+
+STATA:
+If STATA is not the ingest format, all STATA files will have been 
+created from SPSS .sav format via the Stat/Transfer command 
+processor. All files created are in STATA 6 format. Importantly, 
+Stat/Transfer's optimisation routine is run so that variables with 
+SPSS write formats narrower than the data (e.g. numeric variables with
+10 decimal places of data formatted to FX.2) are not rounded upon 
+conversion to STATA because they are converted to "doubles" rather than 
+floats. User missing values are copied across into STATA where the user 
+definition is lost), but the code exists (as opposed to being collapsed
+into STATA's single missing code (versions 6 and 7). 
+Issues: Variables that include both date and time in the SPSS version, 
+such as mm-dd-yyyy  hh:mm:ss (e.g. 18-JUN-2001 13:28:00), will lose 
+the time information and become date only. If the time information is 
+critical, a new variable will have been created in the STATA data file 
+by the UKDA.
+
+Tab-delimited text:
+If tab-delimited text is not the ingest format, tab-delimited files 
+are created from SPSS portable files via the SPSS command processor, 
+Excel spreadsheets, or MS Access databases. When exporting from Access 
+data tables to tab-delimited text, the many undesirable embedded 
+special characters allowed by access memo and text fields - tabs, 
+carriage returns, line feds, etc., - are stripped out by the UKDA 
+software.
+Issues: Date formats in SPSS are always exported to mm/dd/yyyy in tab-
+delimited text format - so you may note a mismatch with the 
+documentation on such variables. Variables that include both date and 
+time such as. mm-dd-yyyy  hh:mm:ss (e.g. 18-JUN-2001 13:28:00), will 
+lose the time information and become mm/dd/yyyy. If the time 
+information is critical, a new variable will have been created in the 
+tab-delimited data file by the UKDA. All users of the data in tab-
+delimited format are provided with the SPSS data dictionary, this 
+being the rich text file named according to the convention 
+<datafilename>_variableinformation.rtf. This contains the SPSS format 
+information as well as the variable and value labels, and it is 
+thereby recommended all tab-delimited data users consult this 
+information. If the tab-delimited data were converted from MS Access, 
+analogous 'data documenter' output will be supplied in rtf format. 
+Likewise, the files may contain SQL setup information.
+
+MS Excel:
+If MS Excel is not the ingest format, Excel files are created via the 
+SPSS command processor. The date and time issues noted under STATA and 
+tab-delimited apply to SPSS to Excel conversion via the SPSS command 
+processor.
+
+MS Access:
+Due to the substantial incompatibilities between versions of MS 
+Access, the UKDA only make data available in MS Access format if this 
+is the ingest format and the database contains important information 
+in addition to the data tables (forms, queries, etc.).
+
+Other formats:
+Data are only made available in other formats on the rare occasion 
+when there is no reliable method of extracting the data into a more 
+accessible format.
+
