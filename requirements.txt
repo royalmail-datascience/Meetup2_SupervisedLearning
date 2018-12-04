@@ -1,5 +1,5 @@
-pandas
-numpy
-matplotlib
-sklearn
+pandas==0.20.3
+numpy==1.13.1
+matplotlib==2.0.2
+sklearn==0.19.0
 
